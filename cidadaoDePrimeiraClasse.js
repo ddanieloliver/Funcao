@@ -5,7 +5,7 @@
 function fun1() { }
 
 // Armazenar em uma variável
-const fun2 = function () { } //() é o nome da função, mas também pode ser usasdo para receber um parametro e {} é o que recebe parametros ou retorna um valor;
+const fun2 = function () { } //() é o nome da função e também recebe todos os parametros da função;
 
 //Armazenar dentro de um array
 const array = [function (a, b) { return a + b }, fun1, fun2]
