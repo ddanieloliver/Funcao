@@ -21,3 +21,5 @@ const criarPessoa = nome => {
 
 const p2 = criarPessoa('João')
 p2.falar()
+
+//A diferença entre os dois é que no console, o this pode influenciar.
