@@ -1,3 +1,6 @@
+/*Construa uma função que receba como parâmetros as alturas e as taxas de crescimento anuais de duas
+crianças e calcule se existe uma criança menor, caso exista se a criança menor ultrapassará a maior e em
+quantos anos isso acontecerá. Utilize centímetros para as unidades de medida.*/
 function calcularCrescimento(alturainicial1, taxa1, alturainicial2, taxa2) {
     if (alturainicial1 == alturainicial2) {
         if (taxa1 > taxa2) {
