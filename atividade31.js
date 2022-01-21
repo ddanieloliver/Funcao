@@ -24,4 +24,4 @@ vetor1 =  []
 vetor2 = [2,2]
 console.log(maiorMenor(vetor))
 console.log(maiorMenor(vetor1))
-console.log(maiorMenor(vetor2))
+console.log(maiorMenor(vetor2));
