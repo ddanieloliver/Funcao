@@ -9,7 +9,7 @@ function mediaFinal(codAlu, nota1, nota2, nota3) {
     notas.push(nota1)
     notas.push(nota2)
     notas.push(nota3)
-    notas.sort()
+    notas.sort((a,b) => a>b? 1: -1)
 
     let mediaFinal = (notas[0] * 3 + notas[1] * 3 + notas[2] * 4) / 10
     console.log(`Código do aluno: ${codAlu}. Notas: ${nota1}, ${nota2}, ${nota3}. ${mediaFinal >= 5 ? "Aprovado." : "Reprovado."}`)
